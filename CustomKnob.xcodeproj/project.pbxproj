@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAC0001238D45440001C695 /* CustomKnob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAACFFF7238D45440001C695 /* CustomKnob.framework */; };
+		FAAC0006238D45440001C695 /* CustomKnobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC0005238D45440001C695 /* CustomKnobTests.swift */; };
+		FAAC0008238D45440001C695 /* CustomKnob.h in Headers */ = {isa = PBXBuildFile; fileRef = FAACFFFA238D45440001C695 /* CustomKnob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAAC0012238D45700001C695 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC0011238D45700001C695 /* Knob.swift */; };
+		FAAC0014238D459F0001C695 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC0013238D459F0001C695 /* KnobRenderer.swift */; };
+		FAAC0016238D45B30001C695 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC0015238D45B30001C695 /* RotationGestureRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAAC0002238D45440001C695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAACFFEE238D45440001C695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAACFFF6238D45440001C695;
+			remoteInfo = CustomKnob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAC0000238D45440001C695 /* CustomKnobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKnobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAC0005238D45440001C695 /* CustomKnobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKnobTests.swift; sourceTree = "<group>"; };
+		FAAC0007238D45440001C695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAC0011238D45700001C695 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		FAAC0013238D459F0001C695 /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
+		FAAC0015238D45B30001C695 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		FAACFFF7238D45440001C695 /* CustomKnob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomKnob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAACFFFA238D45440001C695 /* CustomKnob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKnob.h; sourceTree = "<group>"; };
+		FAACFFFB238D45440001C695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAACFFF4238D45440001C695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAACFFFD238D45440001C695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC0001238D45440001C695 /* CustomKnob.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAC0004238D45440001C695 /* CustomKnobTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC0005238D45440001C695 /* CustomKnobTests.swift */,
+				FAAC0007238D45440001C695 /* Info.plist */,
+			);
+			path = CustomKnobTests;
+			sourceTree = "<group>";
+		};
+		FAACFFED238D45440001C695 = {
+			isa = PBXGroup;
+			children = (
+				FAACFFF9238D45440001C695 /* CustomKnob */,
+				FAAC0004238D45440001C695 /* CustomKnobTests */,
+				FAACFFF8238D45440001C695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAACFFF8238D45440001C695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAACFFF7238D45440001C695 /* CustomKnob.framework */,
+				FAAC0000238D45440001C695 /* CustomKnobTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAACFFF9238D45440001C695 /* CustomKnob */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC0011238D45700001C695 /* Knob.swift */,
+				FAACFFFA238D45440001C695 /* CustomKnob.h */,
+				FAACFFFB238D45440001C695 /* Info.plist */,
+				FAAC0013238D459F0001C695 /* KnobRenderer.swift */,
+				FAAC0015238D45B30001C695 /* RotationGestureRecognizer.swift */,
+			);
+			path = CustomKnob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAACFFF2238D45440001C695 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC0008238D45440001C695 /* CustomKnob.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAACFFF6238D45440001C695 /* CustomKnob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAC000B238D45440001C695 /* Build configuration list for PBXNativeTarget "CustomKnob" */;
+			buildPhases = (
+				FAACFFF2238D45440001C695 /* Headers */,
+				FAACFFF3238D45440001C695 /* Sources */,
+				FAACFFF4238D45440001C695 /* Frameworks */,
+				FAACFFF5238D45440001C695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKnob;
+			productName = CustomKnob;
+			productReference = FAACFFF7238D45440001C695 /* CustomKnob.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAACFFFF238D45440001C695 /* CustomKnobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAC000E238D45440001C695 /* Build configuration list for PBXNativeTarget "CustomKnobTests" */;
+			buildPhases = (
+				FAACFFFC238D45440001C695 /* Sources */,
+				FAACFFFD238D45440001C695 /* Frameworks */,
+				FAACFFFE238D45440001C695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAC0003238D45440001C695 /* PBXTargetDependency */,
+			);
+			name = CustomKnobTests;
+			productName = CustomKnobTests;
+			productReference = FAAC0000238D45440001C695 /* CustomKnobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAACFFEE238D45440001C695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = arhamsoft;
+				TargetAttributes = {
+					FAACFFF6238D45440001C695 = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
+					};
+					FAACFFFF238D45440001C695 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = FAACFFF1238D45440001C695 /* Build configuration list for PBXProject "CustomKnob" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAACFFED238D45440001C695;
+			productRefGroup = FAACFFF8238D45440001C695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAACFFF6238D45440001C695 /* CustomKnob */,
+				FAACFFFF238D45440001C695 /* CustomKnobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAACFFF5238D45440001C695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAACFFFE238D45440001C695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAACFFF3238D45440001C695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC0014238D459F0001C695 /* KnobRenderer.swift in Sources */,
+				FAAC0016238D45B30001C695 /* RotationGestureRecognizer.swift in Sources */,
+				FAAC0012238D45700001C695 /* Knob.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAACFFFC238D45440001C695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC0006238D45440001C695 /* CustomKnobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAC0003238D45440001C695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAACFFF6238D45440001C695 /* CustomKnob */;
+			targetProxy = FAAC0002238D45440001C695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAAC0009238D45440001C695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAAC000A238D45440001C695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAAC000C238D45440001C695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RDRZ62R84;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CustomKnob/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CustomKnob;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAC000D238D45440001C695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RDRZ62R84;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CustomKnob/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CustomKnob;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAAC000F238D45440001C695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RDRZ62R84;
+				INFOPLIST_FILE = CustomKnobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CustomKnobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAC0010238D45440001C695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RDRZ62R84;
+				INFOPLIST_FILE = CustomKnobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CustomKnobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAC000B238D45440001C695 /* Build configuration list for PBXNativeTarget "CustomKnob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC000C238D45440001C695 /* Debug */,
+				FAAC000D238D45440001C695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAC000E238D45440001C695 /* Build configuration list for PBXNativeTarget "CustomKnobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC000F238D45440001C695 /* Debug */,
+				FAAC0010238D45440001C695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAACFFF1238D45440001C695 /* Build configuration list for PBXProject "CustomKnob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC0009238D45440001C695 /* Debug */,
+				FAAC000A238D45440001C695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAACFFEE238D45440001C695 /* Project object */;
+}
