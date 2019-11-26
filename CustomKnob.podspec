@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomKnob"
-  spec.version      = "0.0.1"
+  spec.version      = "0.2.0"
   spec.summary      = "A knob control like the UISlider, but in a circular form."
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ihusnainaali/CustomKnob.git"}
+  spec.source       = {:git => "https://github.com/ihusnainaali/CustomKnob.git", :tag => spec.version.to_s}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #
 
 
-  spec.source_files  = 'Classes/*.{h,m}'
+  spec.source_files  = 'CustomKnob/*.{h,m,swift}'
   # spec.public_header_files = "Classes/**/*.h"
 
 
